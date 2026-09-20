@@ -1,7 +1,14 @@
 
-## About
+## Introduction
+We are Graduate students at the University of Colorado Boulder in the Masters of Science Data Science program. This project is for our Data Mining Course.
+### Research Questions
 
-He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
+### Team
+Tristan Martinez
+Nishant Devkota
+Tushar Koushik
+
+## Proposal Overview
 
 #### Contact
 
