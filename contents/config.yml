@@ -4,7 +4,7 @@ top-section-bg-text: Fantasy Football Prediction
 backgrounds:
   - static/assets/background/CASE_Ralphie1GA.JPG
 background-interval-ms: 7000
-background-overlay: 0.52
+background-overlay: 0.3
 copyright-text: '&copy; Sen Li 2023-2026. All Rights Reserved.'
 github-link:
   text: Github
