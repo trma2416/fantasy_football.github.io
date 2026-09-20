@@ -1,6 +1,6 @@
 title: Fantasy Football Prediction
-page-top-title: User Name
-top-section-bg-text: Computer Science
+
+top-section-bg-text: Fantasy Football Prediction
 backgrounds:
   - static/assets/background/CASE_Ralphie1GA.JPG
 background-interval-ms: 7000
@@ -8,13 +8,13 @@ background-overlay: 0.52
 copyright-text: '&copy; Sen Li 2023-2026. All Rights Reserved.'
 github-link:
   text: Github
-  href: https://github.com/senli1073
+  href: https://github.com/trma2416/CSCI_5502_Fantasy_Project
 license-link:
   text: License
   href: https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE
 sections:
   - id: home
     nav: HOME
-    title: User Name&ensp;|&ensp;姓名
+    title:
     href: '#page-top' # Default to '#<id>' if not specified
  
