@@ -13,16 +13,36 @@ Include at least one useful visual, diagram, map, chart, or contextual figure. C
 
 
 Include a short project blueprint describing what the team plans to investigate during the semester.
-
+The image above gives an overall blueprint of our project. We will first start by analyzing what exact features we are looking for. After engineering the features we want, we will start grabbing both types of data: box score data and news data. We will then use these data to do data analysis so we can connect our features with the data. The next step will be to create and execute an algorithm that uses all of the information we gathered to project estimated fantasy scores. With these predictive scores, the project will provide us with a decision on whether to start or bench a player.
 
 
 Context & Gap: While traditional fantasy management often relies on basic statistics or subjective intuition, integrating historical box scores with real-time news data offers a more comprehensive approach to evaluating player potential.Project Blueprint: During the semester, the team plans to investigate web scraping strategies for ESPN and Pro-Football-Reference, perform feature engineering on box score metrics, and build a scoring model ranging from 0 to 30.   
 
 ## Research Questions
-How can we use players' past data and any ongoing news about them to influence our team selections?   Supporting Question 1: From quantitative box score data, which specific features will we need, and how are we going to weight those features?   Supporting Question 2: What is the most efficient way to scrape news data and turn it into numerical values?   
-
+What are some specific factors that impact a player's performance?
+What is the most efficient way to scrape news data and turn it into numerical values?
+How does the result differ if we only use historical data, instead of also including new data, to predict a player's performance?
+Which machine learning model would best work for our project?
+  
 ## Team
-Tristan Martinez, Nishant Devkota, and Tushar Koushik (Group Number: TBD).   Profiles & Links: Professional bios, appropriate photos, and optional links (GitHub, LinkedIn, portfolios) can be added here as the website is finalized.Initial Responsibilities: Responsibilities will be distributed across data collection/scraping, feature analysis and modeling, visualization, and documentation/reproducibility.
+Group 2
+Tristan Martinez   
+Photo:
+Professional bios:
+Professional Links: 
+Responsibilities: Data & Documentation
+
+Nishant Devkota   
+Photo:
+Professional bios: Nishant Devkota is a data science master's student at the University of Colorado Boulder with a strong foundation in finance, accounting, and quantitative modeling. He brings professional experience as a Senior FP&A Analyst and Senior Data Analyst, specializing in automated reporting architectures, SQL-based data pipelines, and predictive modeling using Python, SQL, and Power BI.
+Professional Links: https://www.linkedin.com/in/nishantdevkota/
+Responsibilities: Coordination & Reproducibility
+
+Tushar Koushik  
+Photo:
+Professional bios:
+Professional Links: 
+Responsibilities: Analysis/Modeling & Visualization
 
 ## Proposal Overview
 Problem & Goal: The primary goal is to predict fantasy football scores (with valid outputs between 0 and 30, treating negative values as invalid and values above 30 as outliers) to guide player selection and drops.   Data Sources: Historical box scores and news articles will be scraped primarily from ESPN, alongside reference data from Pro-Football-Reference. Key variables include touchdowns, rushing/receiving yards, successful throws and catches, and opposing defense team ranks.   Constraints & Risk Mitigation:Rate Limits: Web scraping will be managed carefully to respect ESPN's ping rate limits.   Data Quality: Invalid, null, or outlier data will be handled through thorough data cleaning.   Historical Bias: To counteract past data negatively influencing results due to player team changes over the years, model weights will be adjusted to reduce the influence of older data prior to 2026. 
