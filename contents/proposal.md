@@ -18,4 +18,3 @@ There are three major constraints we need to look at:
 - Web scraping will be managed carefully to respect ESPN's ping rate limits.
 - Invalid, null, or outlier data will be handled through thorough data cleaning.
 - To counteract past data negatively influencing results due to player team changes over the years, model weights will be adjusted to reduce the influence of older data before 2026. 
-
