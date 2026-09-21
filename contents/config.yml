@@ -17,11 +17,15 @@ sections:
     nav: HOME
     title:
     href: '#page-top' # Default to '#<id>' if not specified
-  - id: About
+  - id: about
     nav: ABOUT
     title: ABOUT US
     icon: bi-about-fill
-  - id: background-related-work
+  - id: background
     nav: BACKGROUND
     title: BACKGROUND
     icon: bi-background-fill
+  - id: proposal
+    nav: PROPOSAL
+    title: PROPOSAL
+    icon: bi-proposal-fill
