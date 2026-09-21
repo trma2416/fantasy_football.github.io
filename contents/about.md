@@ -1,6 +1,6 @@
 # Team
 ## **Tristan Martinez**   
-- Photo:
+- Photo: <img src="static/assets/img/IMG_8480.jpg" alt="Profile Picture" width="50%">
 - Professional bio:
 - Professional Link: 
 - Responsibilities: Data & Documentation
