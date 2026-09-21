@@ -8,7 +8,7 @@ The main source of our data will be ESPN. We will scrape historical box score da
 - https://www.espn.com/nfl/player/gamelog/_/id/3139477/patrick-mahomes
 - https://www.espn.com/nfl/scoreboard
 - https://www.pro-football-reference.com/players/M/MahoPa00/gamelog/2023/
-- 
+
 As for the qualitative news, we will need to do web scraping. If web scraping with BeautifulSoup doesn't work, then we will try to connect to ESPN’s direct api links. Also, the qualitative news is more of an extra analysis, while the historical quantitative data will be used for the core analysis. We will try to gather as much data from news as possible, but a significant amount is not needed.
 
 **Current questions:** \
