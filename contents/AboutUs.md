@@ -1,5 +1,4 @@
 ## Team
-Group 2
 Tristan Martinez   
 Photo:
 Professional bios:
