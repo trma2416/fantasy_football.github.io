@@ -1,6 +1,6 @@
 ## **Proposal Overview**
 
-**Problem & Goal:** 
+**Problem & Goal:** \
 We want a model to help us decide which players we will drop and which will play for our team. The output of the model will be the fantasy football score for players/defense. We will use historical quantitative data from box scores along with qualitative data from news. Anyone who uses fantasy football can benefit from it. The expected output is a numerical value from 0 to 30. Negative values are invalid. Any numbers above 30 are outliers 
 
 **Planned data source(s):** \
