@@ -13,6 +13,6 @@
 
 **Tushar Koushik**  
 - Photo:
-- Professional bios:
-- Professional Links: 
+- Professional bios:Professional bios: Tushar is an M.S. Data Science student at the University of Colorado Boulder with undergraduate degrees in Computer Science and Data Science. His experience includes machine learning, software development, data analysis, and visualization. For this project, he will focus primarily on feature engineering, visualization, documentation, and model development.
+- Professional Links: https://www.linkedin.com/in/tushar-koushik-015251282/
 - Responsibilities: Analysis/Modeling & Visualization
