@@ -7,12 +7,16 @@ Identify key stakeholders: people, organizations, communities, systems, or indus
 Every year, around 30-40 million people in the US play fantasy football. These are our main stakeholders who can benefit from our project. Although our project cannot reach these millions of people, 2 out of 3 people on our team will use it regularly each week.
 
 Summarize what is already known or currently done and identify a meaningful gap or unanswered question.
+ESPN already provides an estimated fantasy score for every player, but it is only based on their most up-to-date average from historical data. Just taking the average is simple but a very poor way to predict. The gap in this approach is that every game is different, and there are a lot of factors that play into each game. For example, a player might score more if another specific player is also playing on their team, or if the opposing defense is ranked lowest, or it might even depend on the weather. We plan on engineering our own features that combine multiple other quantitative variables. We also plan on scraping the web for news data on specific players.
+
 Include at least one useful visual, diagram, map, chart, or contextual figure. Cite the source when it is not your own.
+
+
 Include a short project blueprint describing what the team plans to investigate during the semester.
 
 
 
- Key Stakeholders: Anyone who participates in or utilizes fantasy football can benefit directly from this decision-support system.   Context & Gap: While traditional fantasy management often relies on basic statistics or subjective intuition, integrating historical box scores with real-time news data offers a more comprehensive approach to evaluating player potential.Project Blueprint: During the semester, the team plans to investigate web scraping strategies for ESPN and Pro-Football-Reference, perform feature engineering on box score metrics, and build a scoring model ranging from 0 to 30.   
+Context & Gap: While traditional fantasy management often relies on basic statistics or subjective intuition, integrating historical box scores with real-time news data offers a more comprehensive approach to evaluating player potential.Project Blueprint: During the semester, the team plans to investigate web scraping strategies for ESPN and Pro-Football-Reference, perform feature engineering on box score metrics, and build a scoring model ranging from 0 to 30.   
 
 ## Research Questions
 How can we use players' past data and any ongoing news about them to influence our team selections?   Supporting Question 1: From quantitative box score data, which specific features will we need, and how are we going to weight those features?   Supporting Question 2: What is the most efficient way to scrape news data and turn it into numerical values?   
