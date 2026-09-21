@@ -16,7 +16,7 @@ ESPN already provides an estimated fantasy score for every player, but it is onl
 The image above gives an overall blueprint of our project. We will first start by analyzing what exact features we are looking for. After engineering the features we want, we will start grabbing both types of data: box score data and news data. We will then use these data to do data analysis so we can connect our features with the data. The next step will be to create and execute an algorithm that uses all of the information we gathered to project estimated fantasy scores. With these predictive scores, the project will provide us with a decision on whether to start or bench a player. We will spend one week each on all of these steps. 
 
 **Research Questions:**
-What are some specific factors that impact a player's performance?
-What is the most efficient way to scrape news data and turn it into numerical values?
-How does the result differ if we only use historical data, instead of also including new data, to predict a player's performance?
-Which machine learning model would work best for our project?
+- What are some specific factors that impact a player's performance?
+- What is the most efficient way to scrape news data and turn it into numerical values?
+- How does the result differ if we only use historical data, instead of also including new data, to predict a player's performance?
+- Which machine learning model would work best for our project?
