@@ -1,4 +1,3 @@
-# Team
 ## **Tristan Martinez**   
 <img src="static/assets/img/IMG_8480.jpeg" alt="Profile Picture" width="25%">
 - Professional bio:
