@@ -1,8 +1,8 @@
 # Team
 ## **Tristan Martinez**   
-- Photo: <img src="static/assets/img/IMG_8480.jpg" alt="Profile Picture" width="50%">
-- Professional bio:
-- Professional Link: 
+- Photo: <img src="static/assets/img/IMG_8480.jpeg" alt="Profile Picture" width="50%">
+- Professional bio: Tristan Martinez is a Graduate student in the MS-Data Science program at the University of Colorado Boulder. He has a background in Physics where he holds a bachelors degree from CU Boulder. His experience includes Scientific Data analysis, software developement, scientific computing, and algorithms. 
+- Professional Link: https://www.linkedin.com/in/tristan-martinez1/
 - Responsibilities: Data & Documentation
 
 ## **Nishant Devkota**   

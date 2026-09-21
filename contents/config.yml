@@ -21,11 +21,11 @@ sections:
     nav: ABOUT
     title: ABOUT US
     icon: bi-about-fill
-  - id: background
-    nav: BACKGROUND
-    title: BACKGROUND
-    icon: bi-background-fill
   - id: proposal
     nav: PROPOSAL
     title: PROPOSAL
     icon: bi-proposal-fill
+  - id: background
+    nav: BACKGROUND
+    title: BACKGROUND
+    icon: bi-background-fill
