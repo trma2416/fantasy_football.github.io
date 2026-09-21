@@ -1,5 +1,5 @@
 
-## Introduction
+# Introduction
 
 ##**Purpose:**
 The main purpose of the project is to help fantasy football players decide which players to start and which players to keep on the bench. NFL games run on a weekly cycle, so fantasy football managers need to make decisions every week on which players to start based on their potential fantasy score. 
