@@ -30,7 +30,7 @@ sections:
     nav: BACKGROUND
     title: BACKGROUND
     icon: bi-background-fill
-  - id: Data Exploration
+  - id: data-exploration
     nav: Data Exploration
     title: Data Exploration
     icon: bi-background-fill
