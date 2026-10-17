@@ -10910,5 +10910,31 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 
+table {
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid var(--bs-border-color);
+}
 
+table th,
+table td {
+  padding: 0.5rem 0.9rem;
+  border: 1px solid var(--bs-border-color);
+  text-align: left;          /* overrides any inherited justify */
+  vertical-align: top;
+}
 
+table th {
+  background-color: var(--bs-gray-100);
+  font-weight: 600;
+}
+
+table tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+}
