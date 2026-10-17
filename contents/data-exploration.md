@@ -28,7 +28,8 @@ A summary of `notebooks/FINAL_EDA.ipynb`, which uses `data/df_final.csv`. Figure
 **Fantasy points (target):** No missing values. Mean 6.53, median 3.92, standard deviation 7.60, range −3.06 to 55.40, skewness 1.48. The distribution is right-skewed: 71.9% of rows are positive, 27.0% are exactly zero and 1.2% are negative (`figures/Fantasy_score_categories.png`). Zero scores are most common for TEs (40.5%) and WRs (30.9%), and rare for kickers (3.1%) and QBs (4.1%).
 
 **By position** (`figures/dist_fantasy_pts_by_pos.png`):
-
+    
+    
 | Position | Rows | Mean | Median | Std. dev. |
 | --- | --- | --- | --- | --- |
 | QB | 676 | 13.11 | 13.11 | 9.48 |
@@ -36,13 +37,15 @@ A summary of `notebooks/FINAL_EDA.ipynb`, which uses `data/df_final.csv`. Figure
 | RB | 1,808 | 6.67 | 3.60 | 8.07 |
 | WR | 2,806 | 5.97 | 3.40 | 7.22 |
 | TE | 1,739 | 4.16 | 1.70 | 5.81 |
-
+    
+        
 Scoring differs a lot by position, so position should be a model feature or models should be built or evaluated per position.
 
 **Weekly trend** (`figures/avg_med_fantasy_pts.png`): The weekly mean stays between about 5.8 (week 18) and 7.1 (week 5), and the median between 3.3 and 4.6. There is no clear upward or downward trend. The number of rows per week changes (362 to 447) because of bye weeks and player participation.
 
 **ESPN projections as a baseline** (`figures/proj_vs_actual_fantasy_pts.png`): Across the 7,542 rows with a projection, projected and actual points have a correlation of 0.709, a mean absolute error (MAE) of 3.70 points and a mean error (actual − projected) of −0.19. These numbers include the projections filled with `med_proj_pts`.
 
+    
 | Position | ESPN MAE | Mean signed error (projected − actual) | Boom (≥5 above) | Near projection | Bust (≥5 below) |
 | --- | --- | --- | --- | --- | --- |
 | QB | 5.53 | 0.33 | 19.9% | 55.3% | 24.8% |
@@ -51,6 +54,7 @@ Scoring differs a lot by position, so position should be a model feature or mode
 | RB | 3.67 | 0.18 | 12.7% | 72.3% | 15.1% |
 | TE | 2.79 | −0.13 | 11.0% | 82.1% | 6.9% |
 
+    
 (`figures/proj_error_ESPN.png`, `figures/dist_espn_proj_err.png`, `figures/dist_proj_err_by_pos.png`, `figures/boom_vs_bust.png`)
 
 Projection errors are centered close to 0 for every position, so ESPN has little overall bias. QBs have the largest errors and the most boom and bust weeks, but they also score the most points, so a fixed 5-point threshold makes their rates look larger than they are relative to their scoring.
