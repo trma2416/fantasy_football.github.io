@@ -31,6 +31,6 @@ sections:
     title: BACKGROUND
     icon: bi-background-fill
   - id: data-exploration
-    nav: Data Exploration
-    title: Data Exploration
+    nav: DATA EXPLORATION
+    title: DATA EXPLORATION
     icon: bi-background-fill
