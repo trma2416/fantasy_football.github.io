@@ -26,11 +26,11 @@ A summary of `notebooks/FINAL_EDA.ipynb`, which uses `data/df_final.csv`. Figure
 **Dataset overview:** 7,572 player-game rows for 685 players over 18 weeks: WR 2,806, RB 1,808, TE 1,739, QB 676 and K 543. There are no duplicate `player_id`/`season`/`week` keys and no fully duplicated rows. Stat columns that do not apply to a position are mostly missing (for example, passing stats are missing for about 91% of rows and kicking stats for about 93%). The defensive stat columns (tackles, stuffs, passes defended, interception returns) are missing for all but one row, so they are not useful for this project.
 
 **Fantasy points (target):** No missing values. Mean 6.53, median 3.92, standard deviation 7.60, range −3.06 to 55.40, skewness 1.48. The distribution is right-skewed: 71.9% of rows are positive, 27.0% are exactly zero and 1.2% are negative.
-<img src="figures/Fantasy_score_categories.png" alt="plot" width="25%">
+<img src="static/assets/img/Fantasy_score_categories.png" alt="plot" width="25%">
  Zero scores are most common for TEs (40.5%) and WRs (30.9%), and rare for kickers (3.1%) and QBs (4.1%).
 
 **By position**: 
-<img src="figures/dist_fantasy_pts_by_pos.png" alt="plot" width="25%">
+<img src="static/assets/img/dist_fantasy_pts_by_pos.png" alt="plot" width="25%">
     
     
 | Position | Rows | Mean | Median | Std. dev. |
@@ -45,11 +45,11 @@ A summary of `notebooks/FINAL_EDA.ipynb`, which uses `data/df_final.csv`. Figure
 Scoring differs a lot by position, so position should be a model feature or models should be built or evaluated per position.
 
 **Weekly trend**:
-<img src="figures/avg_med_fantasy_pts.png" alt="plot" width="25%">
+<img src="static/assets/img/avg_med_fantasy_pts.png" alt="plot" width="25%">
  The weekly mean stays between about 5.8 (week 18) and 7.1 (week 5), and the median between 3.3 and 4.6. There is no clear upward or downward trend. The number of rows per week changes (362 to 447) because of bye weeks and player participation.
 
 **ESPN projections as a baseline**: 
-<img src="figures/proj_vs_actual_fantasy_pts.png" alt="plot" width="25%">
+<img src="static/assets/img/proj_vs_actual_fantasy_pts.png" alt="plot" width="25%">
  Across the 7,542 rows with a projection, projected and actual points have a correlation of 0.709, a mean absolute error (MAE) of 3.70 points and a mean error (actual − projected) of −0.19. These numbers include the projections filled with `med_proj_pts`.
 
     
@@ -62,15 +62,15 @@ Scoring differs a lot by position, so position should be a model feature or mode
 | TE | 2.79 | −0.13 | 11.0% | 82.1% | 6.9% |
 
     
-<img src="figures/proj_error_ESPN.png" alt="plot" width="40%">
-<img src="figures/dist_espn_proj_err.png" alt="plot" width="40%">
-<img src="figures/dist_proj_err_by_pos.png" alt="plot" width="40%">
-<img src="figures/boom_vs_bust.png" alt="plot" widht="40%">
+<img src="static/assets/img/proj_error_ESPN.png" alt="plot" width="40%">
+<img src="static/assets/img/dist_espn_proj_err.png" alt="plot" width="40%">
+<img src="static/assets/img/dist_proj_err_by_pos.png" alt="plot" width="40%">
+<img src="static/assets/img/boom_vs_bust.png" alt="plot" widht="40%">
 
 Projection errors are centered close to 0 for every position, so ESPN has little overall bias. QBs have the largest errors and the most boom and bust weeks, but they also score the most points, so a fixed 5-point threshold makes their rates look larger than they are relative to their scoring.
 
 **Home vs. away**: 
-<img src="figures/home_vs_away.png" alt="plot" width="25%">
+<img src="static/assets/img/home_vs_away.png" alt="plot" width="25%">
 3,904 home rows and 3,668 away rows. Home averages are slightly higher for K (8.60 vs 7.91), QB, RB and WR, and slightly lower for TE (4.13 vs 4.20). The distributions overlap heavily, so any home-field effect is small.
 
 **Modeling implications:**
