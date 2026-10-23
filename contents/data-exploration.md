@@ -65,7 +65,7 @@ Scoring differs a lot by position, so position should be a model feature or mode
 <img src="static/assets/img/proj_error_ESPN.png" alt="plot" width="40%">
 <img src="static/assets/img/dist_espn_proj_err.png" alt="plot" width="40%">
 <img src="static/assets/img/dist_proj_err_by_pos.png" alt="plot" width="40%">
-<img src="static/assets/img/boom_vs_bust.png" alt="plot" widht="40%">
+<img src="static/assets/img/boom_vs_bust.png" alt="plot" width="40%">
 
 Projection errors are centered close to 0 for every position, so ESPN has little overall bias. QBs have the largest errors and the most boom and bust weeks, but they also score the most points, so a fixed 5-point threshold makes their rates look larger than they are relative to their scoring.
 
