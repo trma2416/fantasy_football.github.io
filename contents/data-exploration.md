@@ -1,9 +1,9 @@
 ## Data Provenance and Acquisition   
 **Source:**   
 API URLs:  
-1. Historical game data: "https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{pid}/gamelog"  
-2. Current standings: "https://site.api.espn.com/apis/v2/sports/football/nfl/standings"  
-3. Next game schedule: "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/{team_abbr_lower}/schedule"
+1. Historical game data: [Historical](https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/athletes/{pid}/gamelog)  
+2. Current standings: [Current](https://site.api.espn.com/apis/v2/sports/football/nfl/standings) 
+3. Next game schedule: [Next Game](https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/{team_abbr_lower}/schedule)
 4. Historical fantasy data (actual and projected weekly fantasy points): [2025 Fantasy Player Data](https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2025/segments/0/leaguedefaults/3?view=kona_player_info)
 5. Game conditions (stadium, roof, surface, weather): nflverse schedules, loaded with the `nflreadpy` Python package (`nfl.load_schedules(seasons=2025)`)
    
