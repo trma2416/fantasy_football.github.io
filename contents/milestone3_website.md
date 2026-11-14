@@ -42,7 +42,8 @@ We report **MAE** (average absolute error in fantasy points; primary metric), **
 | Global XGBoost | 3,163 | 4.376 | 5.947 | 0.412 |
 | Combined position-grouped XGBoost | 3,163 | 4.623 | 6.130 | 0.375 |
 
-![Bar chart comparing the mean absolute errors of ESPN, Global XGBoost, and position-grouped XGBoost](milestone3_model_comparison.png)
+
+<img src="static/assets/img/milestone3_model_comparison.png" alt="MAE comparison of ESPN, Global XGBoost, and Clustered XGBoost" style="display: block; width: 85%; margin: 1rem auto;">
 
 *Figure: Mean absolute error on the same 3,163 matched 2026 player-games. Lower is better.*
 
