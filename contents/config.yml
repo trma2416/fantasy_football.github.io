@@ -34,3 +34,6 @@ sections:
     nav: DATA EXPLORATION
     title: DATA EXPLORATION
     icon: bi-background-fill
+  - id: modeling-evaluation
+    nav: MODELING & EVALUATION
+    title: MODELING & EVALUATION
